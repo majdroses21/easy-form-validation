@@ -1,4 +1,32 @@
 .App {
+  background-color: antiquewhite;
   text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.form-app{
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  color: #fff;
 
+}
+.form-input  input{
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+.form-input  label{
+  margin-bottom: 8px;
+  margin-right: 7px;
+  font-size: 18px;
+  font-weight: bold;
+}
